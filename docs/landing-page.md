@@ -37,7 +37,7 @@ In this course you use a removable disk pack with the lab computers to set up a 
     - [Download at Seneca Lab](https://mirror.senecacollege.ca/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
     - [Download from Home](https://mirror.csclub.uwaterloo.ca/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
   
-3. **Lab Log-book** (download and print):	[PDF](/files/OPS335/OPS335-LLB-S2020.pdf)
+3. **Lab Log-book** (download and print):	[PDF](/files/OPS335-LLB-S2020.pdf)
 
 ## Learning by Doing
 
