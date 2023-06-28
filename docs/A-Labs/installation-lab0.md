@@ -28,7 +28,8 @@ In this is lab, you will install your **host machine** (Centos7), **install virt
 
 1. It may be advisable to obtain the latest version of the CentOS 7 Full Installation DVD since there may be improvements since the last version from when you took OPS235.
 2. Download and burn on a DVD a copy of the CentOS 7 installation DVD (64 bit edition) from the CentOS web site or the Belmont server.
-**Note**: we'll be using the 64 bit version of CentOS because all of our lab computers are equipped with Intel 64 bit mainboards and CPUs, and any computer you bought in the last few years for yourself will be 64bit as well.
+
+    - **Note**: we'll be using the 64 bit version of CentOS because all of our lab computers are equipped with Intel 64 bit mainboards and CPUs, and any computer you bought in the last few years for yourself will be 64bit as well.
 
     - **Seneca's mirror of CentOS**: https://mirror.senecacollege.ca/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso
         - This is very fast, but is only accessible from within Seneca's network - you can't access this from home. You can burn this disc on the machines in the Open Lab.)
@@ -43,7 +44,7 @@ In this is lab, you will install your **host machine** (Centos7), **install virt
         - Delete any old partitions.
         - Select the hard disk and indicate "I will configure partitions" and click done.
         - Click the link to **create them (partitions) automatically** (this will give a typical layout with /, /boot, /boot/efi, /home, etc).
-        - Free up at least **100GB** of disk space by shrinking the /home partition (At least **40** GB for root (/) and **40GB** for /home). Since your machine will have far fewer users and more virtual machines than a typical installation, we will need that space elsewhere.
+        - Free up at least **100GB** of disk space by shrinking the **/home** partition (At least **40** GB for root (/) and **40GB** for /home). Since your machine will have far fewer users and more virtual machines than a typical installation, we will need that space elsewhere.
         - Create a new logical volume for **/var/lib/libvirt/images** and give it the space made available by shrinking /home (You will need enough space for up to 10 virtual machines at 8GB each plus room to compress/extract images).
         - Make certain that the existing partitions **except swap, /boot and /boot/efi** have the file system type **ext4** (not xfs).
 5. After the installation starts you will also have the opportunity to create users.
@@ -132,7 +133,7 @@ wget http://mirror.csclub.uwaterloo.ca/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-
 
 Perform the following steps to create your first VM on your Virtual Machine Manager application:
 
-1. Create a new virtual machine named vm1.
+1. Create a new virtual machine named **vm1**.
 2. Accept the default file type (which is **qcow2**). You are NOT required to specify the VM file pathname as you did in OPS235.
 
 **VM File Types** ( .qcow2 **vs** .img ): In OPS235, you selected the VM images as a "**raw**" image. In OPS335, you will be accepting the default image file "**.qcow2**" (which stands for "QMENU Copy on Write version 2" ) that provides more features when manipulating stored VM images.
