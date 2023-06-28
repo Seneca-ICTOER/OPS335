@@ -52,7 +52,7 @@ We will use an example of setting up a firewall to secure a web server. You will
 ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
 ```
 
-- **Rules are applied to: chains** (e.g. _input/output_) and contain information regarding the type of traffic they apply to. For example, **protocols** such as _tcp/udp/icmp_, **port numbers** such as _22_ (SSH), _80_ (HTTP), _443_ (SHTTP), **addresses**, and many other things.
+- **Rules are applied to: chains** (e.g. _input/output_) and contain information regarding the type of traffic they apply to. For example, **protocols** such as _tcp/udp/icmp_, **port numbers** such as _22_ (_SSH_), _80_ (_HTTP_), _443_ (_SHTTP_), **addresses**, and many other things.
 - Let's look at how these rules would apply to a simple web connection (HTTP - port 80):
     1. For the _request_, the **source port (sport) for the example in the above diagram is 40112** and the **destination port (dport) is 80**
     2. For the _response_, the **source port (sport) is 80** and the **destination port (dport) is 40112**
@@ -123,10 +123,10 @@ In fact, several rules were **automatically added** to your chains because you a
 10. Re-issue **iptables -L -v** commands making certain to redirect output to a second file (**after.txt**). This should provide a listing of the new state of your firewall settings.
 11. You now should have two text files representing the before and after states of your firewall. Compare differences between these two files using the **diff** command (You should have used this tool in **ULI101**).
 12. Run **diff -u before.txt after.txt** and figure out how to read the output.
-13. You can use these tools to compare any two text files, they often come in handy. Note in your lab logbook the iptables rules that were added automatically by the libvirtd service.
+13. You can use these tools to compare any two text files, they often come in handy. Note in your lab logbook the iptables rules that were added automatically by the **libvirtd** service.
 14. Are there any differences between those 2 files? What does this mean if your VMs get disconnected in terms of the firewall rules?
 
-**Graphically Compare File Differences:** You can also install a graphical tool that makes it much easier to see differences: kompare before.txt after.txt
+**Graphically Compare File Differences:** You can also install a graphical tool that makes it much easier to see differences: **kompare before.txt after.txt**
 
 **NOTE: Make certain to run the command as a regular user (i.e. NOT root!).**
 
@@ -139,7 +139,7 @@ Let's set a **default policy** to disable all inbound traffic:
 1. Issue an _iptables_ command to set the default policy to disable all inbound traffic.
 2. Issue an _iptables_ command to list rules to verify you correctly disabled all inbound traffic.
 
-The remaining iptables rules will relate to that same **inbound** traffic chain:
+      - The remaining iptables rules will relate to that same **inbound** traffic chain:
 
 3. Issue the command **iptables -L INPUT**, and note the rules associated for ssh in your lab logbook.
 4. Issue an _iptables command_ to delete the default ssh rule, and issue another iptables command to verify.
