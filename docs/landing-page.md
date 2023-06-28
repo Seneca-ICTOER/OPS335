@@ -47,7 +47,7 @@ All of the software used in this course is _open source_ software, so you are fr
 
 ## Course Faculty
 
-During the Fall 2021 semester, OPS335/OPS345 are taught by:
+**During the Fall 2021 semester, OPS335/OPS345 are taught by:**
 
 ![Andrew Smith Picture](/img/Andrew.jpg)
 
