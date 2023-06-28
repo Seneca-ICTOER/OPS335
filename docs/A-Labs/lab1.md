@@ -92,12 +92,12 @@ If the network works in your host, but not in your Virtual Machine, you should p
 4. **CAN YOU PING THE HOST BY IP**? (by its internal IP address). If not - check all of the above, check if you have an IP address conflict, and check that your subnet mask is correct.
 5. **CAN YOU PING 8.8.8.8**? If all of the above work - check that your default gateway is set correctly with **ip route** and that you can ping the default gateway.
 6. **CAN YOU RESOLVE google.ca**? Run **host google.ca**. If the output doesn't provide an IP address, check that your DNS server is configured correctly and that you can ping that address.
+
 There are a number of other problems that could prevent your network connection from functioning but the above are the most common problems.
 
 **Run Script to Break Network Connection for Troubleshooting**
 
 You will now download, set execute permissions and run a Bash shell script to try to "break" the network connection for your vm1. This will provide troubleshooting practice to check your network configuration file, look and correct errors and restart your network interface connection.
-
 
 Perform the Following Steps:
 
@@ -267,7 +267,7 @@ Since your host machine and VMs are **not continuously running, you are not requ
 
 **Perform the following steps:**
 
-1. Refer to the following WIKI to learn how to use cron: [crontab tutorial] (ADD LINK)
+1. Refer to the following WIKI to learn how to use cron: [crontab tutorial](/C-ExtraResources/crontab-tutorial.md)
 2. In your host machine as root, modify the setting so it will run that echo command every minute by creating a crontab (via **crontab -e**) entry with the following line:
 
 ```bash
