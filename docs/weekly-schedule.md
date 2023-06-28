@@ -114,7 +114,7 @@ description: Weekly Schedule for OPS335
 | --- | --- | --- |
 | **Web Server (Apache):** | **Online Resources:** | [Lab 6: Web Server](/A-Labs/lab6.md) |
 | - LAMP stack installation and configuration | - [PHP Tutorial](http://www.w3schools.com/php/default.asp) |  |
-| - smb.conf, testparm, smbpasswd, pdbedit | - [MySQL / SQL Language Resources](http://www.w3schools.com/sql/) |  |
+|  | - [MySQL / SQL Language Resources](http://www.w3schools.com/sql/) |  |
 
 ## Week 11
 
