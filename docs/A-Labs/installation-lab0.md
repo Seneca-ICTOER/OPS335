@@ -36,7 +36,7 @@ In this is lab, you will install your **host machine** (Centos7), **install virt
 
     - **Outside Seneca College link (available from any Internet connection):** https://mirror.netflash.net/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso
 
-3. You need to refer to your OPS235 notes in order to install your host machine. Here is a direct link: OPS245 - Lab1 (ADD LINK)
+3. You need to refer to your OPS235 notes in order to install your host machine. Here is a direct link: [OPS245 - Lab1](https://seneca-ictoer.github.io/OPS235/A-Labs/lab1)
 4. Customize your installation following these guidelines:
     - **Turn on networking** and use **host** as the **hostname**.
     - Under software selection, choose **Gnome desktop.**
@@ -89,7 +89,7 @@ At this point you have a basic Centos system installed and updated. This will se
 
 ### Configuring a VM host
 
-1. You will need to install some software to allow your machine to act as a host for virtual machines. We'll be using the same **libvirt** and **virt-manager** you used in OPS235 - Lab2 (ADD LINK).
+1. You will need to install some software to allow your machine to act as a host for virtual machines. We'll be using the same **libvirt** and **virt-manager** you used in [OPS235 - Lab2](https://seneca-ictoer.github.io/OPS235/A-Labs/lab2).
     - You may find it helpful to refer back to the **OPS235 notes** to perform the following operations:
         - Install the required virtualization software
         - Start and enable the virtualization service
@@ -193,7 +193,7 @@ ssh your_seneca_id@matrix.senecacollege.ca
 **Backup your VMs!**
 
 You MUST backup ALL of your VMs whenever you complete your **OPS335 labs** or when working on your **OPS335 assignments**:
-[ Backing up Your Virtual Machines ] (ADD LINK). Refer to OPS235 lab2 notes on how to backup your VMs. You should backup your VMs to a USB key in case something happens to your host machine. Note: VM files contained in the **/var/lib/libvirt/images** directory have the extension in **.qcow2** and instead of **.img** (eg. for OPS235 courses prior to Fall 2016.
+[\[Backing up Your Virtual Machines\]](https://seneca-ictoer.github.io/OPS235/A-Labs/lab2#part-1-backing-up-virtual-machines). Refer to OPS235 lab2 notes on how to backup your VMs. You should backup your VMs to a USB key in case something happens to your host machine. Note: VM files contained in the **/var/lib/libvirt/images** directory have the extension in **.qcow2** and instead of **.img** (eg. for OPS235 courses prior to Fall 2016.
 
 **Record steps, commands, and your observations in INVESTIGATION 2 in your OPS335 lab log-book**
 
