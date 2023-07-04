@@ -32,11 +32,10 @@ Perform the following steps for this section:
 3. Setup a DNS server on your **australinea** virtual machine noting the following items below:
     1. This virtual machine will be the **Master DNS server** for **continents.earth.ops**.
     2. Only **antarctica** will be allowed to obtain zone transfers of this zone.
-    3. This machine will provide **forward** and **reverse** lookups of ALL virtual machines in the **continents.earth.ops**. zone, including resource
-    4. records for virtual machines that do not currently exist.
-    5. You MUST use the following names for both the forward and reverse zone files in **/var/named** directory: **mydb-for-continents.earth.ops** and **mydb-for-172.28.105**
-    6. Any machine in the **continents.earth.ops** network may use this machine to perform queries of machines outside the network, however it will route all such queries through the DNS server you created in lab #3.
-    7. For machines outside the **continents.earth.ops** domain, it will only answer queries about machines inside the network. They may not use it to query other machines.
+    3. This machine will provide **forward** and **reverse** lookups of ALL virtual machines in the **continents.earth.ops**. zone, including resource records for virtual machines that do not currently exist.
+    4. You MUST use the following names for both the forward and reverse zone files in **/var/named** directory: **mydb-for-continents.earth.ops** and **mydb-for-172.28.105**
+    5. Any machine in the **continents.earth.ops** network may use this machine to perform queries of machines outside the network, however it will route all such queries through the DNS server you created in lab #3.
+    6. For machines outside the **continents.earth.ops** domain, it will only answer queries about machines inside the network. They may not use it to query other machines.
 
 ### Set-up Slave Name Server (antarctica)
 
@@ -62,7 +61,7 @@ As you will now have functioning primary and secondary DNS servers, modify your 
 
 | Hostname / Domain	| Address	| Purpose |
 | --- | --- | --- |
-| _africa.continents.earth.ops_' (your existing host)	External Facing Address: **DHCP assigned** Internal Virtual Bridge (virbr1): **172.28.105.1**	| Your **host** machine |
+| _africa.continents.earth.ops_' (your existing host) |	External Facing Address: **DHCP assigned** Internal Virtual Bridge (virbr1): **172.28.105.1** | Your **host** machine |
 | **pangaea.continents.earth.ops**	| **172.28.105.100**	| **Cloning-source** used to create other servers for other assignments. |
 | **australinea.continents.earth.ops**	| **172.28.105.2**	| **Master** Name Server |
 | **antarctica.continents.earth.ops**	| **172.28.105.3**	| **Slave** Name Server |
@@ -92,7 +91,7 @@ The student is required to prove to their professor that their set-up works corr
     1. Login as **root** on your **host** machine.
     2. Change to the **/root/bin** directory.
     3. Make certain that your **assignment VMs are running**.
-    4. Issue the command to download a checking script for your assignment to your host machine: `wget https://matrix.senecacollege.ca/~peter.callaghan/files/OPS335/check-assn1-p2.bash`
+    4. Issue the command to download a checking script for your assignment to your **host** machine: `wget https://matrix.senecacollege.ca/~peter.callaghan/files/OPS335/check-assn1-p2.bash`
     5. Set execute permissions and run the shell script.
     6. Upload the resulting file to blackboard.
 
