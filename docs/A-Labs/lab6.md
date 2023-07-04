@@ -220,7 +220,7 @@ setsebool -P httpd_can_network_connect 1
 
     - Some installation tips to consider:
       + Be careful about copying & pasting the MySQL setup part: take time and pay attention to detail: do not try to "rush it".
-      + You will need to install additional Apache modules including: php-xml and php-mbstring.
+      + You will need to install additional Apache modules including: **php-xml** and **php-mbstring**.
       + Don't forget to set the password in the roundcube configuration.
 
 6. To make things easier, RoundCube has a well configured installation page available through your local web browser (You will see a note about it in the **INSTALL** file).
