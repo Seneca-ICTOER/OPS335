@@ -23,7 +23,7 @@ For this portion of assignment 1, you will set up the basic functionality for a 
 
 Create a new virtual network on your Host Machine.
 
-- Assign a newly-created virtual network the name: **335assign**, and set **forwarding to any physical device** (refer to [lab setup] (ADD LINK). You can have have 2 different network names: "335assign" and "ops335" without causing any problems).
+- Assign a newly-created virtual network the name: **335assign**, and set **forwarding to any physical device** (refer to [lab setup](/A-Labs/installation-lab0.md#investigation-2-virtual-machine-installation). You can have have 2 different network names: "335assign" and "ops335" without causing any problems).
 - Addresses in this network will start with **172.28.105**. The subnet mask must be **255.255.255.0**
 - There must **NOT** be a DHCP server running for this network!
 - All the machines for this assignment will be connected to your newly-created virtual network called: **335assign**
@@ -68,7 +68,7 @@ Perform the following steps for this section:
     - Responses to any traffic the machine sends out are allowed.
     - Traffic on the loopback interface is allowed.
     - The host machine (and **only** the host machine) must be able to ssh to that cloning-source VM.
-    - ICMP traffic is allowed if it originated with the local network only.
+    - ICMP traffic is allowed if it originated with the **local network only**.
     - As this is acting as the secure basis for later machines, no other traffic should be allowed, and no response should be sent if any other traffic is received.
 
 ### Create Full and Incremental Backups of cloning-source VM
