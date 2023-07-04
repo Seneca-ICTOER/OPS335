@@ -245,7 +245,7 @@ iptables -t nat -A PREROUTING -i *externalinterface* -p tcp --dport 445 -j DNAT 
 
 1. Modify the **hosts allow** setting on your **vm2** to also accept connections from the windows machine you are using.
 2. Open the Windows File Explorer application.
-3. At the top of the application, enter the following: **\\EXTERNAL_IPADDR_OF_HOST\home**
+3. At the top of the application, enter the following: **\\\EXTERNAL_IPADDR_OF_HOST\home**
 4. You will be prompted to enter your samba username and password (one time only). Refer to screenshot below.
 
       - **NOTE**: It may take approximately 30 seconds to display the file contents.
