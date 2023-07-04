@@ -77,7 +77,7 @@ Although we will be eventually setting up the Thunderbird application to perform
 | **security**	| SSL/TLS	| STARTTLS |
 | **References**	| \[1\] [ITS - Configuring other Email Clients](https://employees.senecacollege.ca/spaces/77/it-services/wiki/view/2394/other-email-clients) |  |
 
-Note that your username is your full email address(_yourid@myseneca.ca_) and not just _yourid_.
+Note that your username is your full email address(_yourid\@myseneca.ca_) and not just _yourid_.
 
 **Unencrypted Options**
 
@@ -148,7 +148,7 @@ All mail is now being delivered to a centralized location (and also appears to b
 
 ### Install and Configure the Local Delivery Agent (LDA/MDA)
 
-Postfix is capable of performing the function of an LDA, but its LDA capabilities are limited, thus postfix is generally not used for that purpose. Currently, the most popular LDA is LMTP, but we will be installing, configuring, and using an LDA called **Dovecot** since it is also popular and we will setting up Dovecot as an **IMAP** server later in this lab. Using both Postfix and Dovecot will actually increase the performance of our IMAP server.
+Postfix is capable of performing the function of an LDA, but its LDA capabilities are limited, thus postfix is generally not used for that purpose. Currently, the most popular LDA is _LMTP_, but we will be installing, configuring, and using an LDA called **Dovecot** since it is also popular and we will setting up Dovecot as an **IMAP** server later in this lab. Using both Postfix and Dovecot will actually increase the performance of our IMAP server.
 
 **Perform the following steps:**
 
