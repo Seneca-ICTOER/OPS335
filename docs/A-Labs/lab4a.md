@@ -156,7 +156,9 @@ nc localhost 25
 
 4. You could theoretically use SMTP commands to send an email here, but this would be a very unusual use of your mail server. You have an **MUA** for a reason.
 5. Enter the command **QUIT** to close the connection to the server, then **<ctrl\>-c** to terminate the nc command.
-        - **NOTE**: If it worked, this indicates that the postfix service is running, listening, and responding to connections.
+
+      - **NOTE**: If it worked, this indicates that the postfix service is running, listening, and responding to connections.
+
 6. Let's see if it works from other machines. Use **nc** to connect to **vm2** from **vm3** and see if it works. If your firewall is set up properly, the nc command should not permit a connection (i.e. _no route to host_).
 7. Create an iptables rule to allow incoming connections to your **SMTP** server on your **vm2**.
 8. Once you open the port in the firewall, retry the **nc** command. You should get a different error this time (e.g. _connection refused_). This time the problem is that your service isn't listening on the outside interface, it's currently configured to listen only on the loopback (lo) interface.
