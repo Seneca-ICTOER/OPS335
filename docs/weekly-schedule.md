@@ -24,7 +24,7 @@ description: Weekly Schedule for OPS335
 | --- | --- | --- |
 | **Basic Networking & Backups:** | **Online Reference:** | [Lab 1: Network/Backup](/A-Labs/lab1.md) |
 | - ifconfig & route vs ip; resolv.conf, hostnamectl | - [ip vs ifconfig](https://www.tty1.net/blog/2010/ifconfig-ip-comparison_en.html) |  |
-| - /etc/sysconfig/network-scripts/ | - OPS235 - Lab7 (ADD LINK) |  |
+| - /etc/sysconfig/network-scripts/ | - [OPS235 - Lab7](https://seneca-ictoer.github.io/OPS235/A-Labs/lab7) |  |
 | - Network connection troubleshooting | - [rsync Howto](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) |  |
 | - SSH & SSH Keys | - [Cron HowTo](https://help.ubuntu.com/community/CronHowto) |  |
 | - rsync & cron |  |  |
