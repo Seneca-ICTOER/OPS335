@@ -133,7 +133,7 @@ The student is required to prove to their professor that their set-up works corr
     1. Login as **root** on your **host** machine.
     2. Change to the **/root/bin** directory.
     3. Make certain that your **assignment VMs are running**.
-    4. Issue the command to download a checking script for your assignment to your host machine: `wget https://matrix.senecacollege.ca/~peter.callaghan/files/OPS335/check-assn2.bash`
+    4. Issue the command to download a checking script for your assignment to your **host** machine: `wget https://matrix.senecacollege.ca/~peter.callaghan/files/OPS335/check-assn2.bash`
     5. Set execute permissions and run the shell script.
     6. Upload the resulting file to blackboard.
     7. **Additional Assignment Information:**
