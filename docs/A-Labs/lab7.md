@@ -91,7 +91,7 @@ smtpd_tls_loglevel = 1
 **Perform the following steps:**
 
 1. Currently your Thunderbird is set up to use **vm2.yoursenecaid.ops** for an SMTP server, with no security. Change that to use **STARTTLS** instead (you can change it under **account settings --\> Outgoing Server**).
-2. We haven't set up any user authentication, just an encrypted channel; therefore, leave the **authentication method** at the value: none.
+2. We haven't set up any user authentication, just an encrypted channel; therefore, leave the **authentication method** at the value: **none**.
 3. When you try to send an email Thunderbird will warn you about the self-signed certificate. You obviously know it's your certificate so you can tell Thunderbird to trust it:
 
 ![SMTP Certificate Warning](/img/SMTP-certificate-warning.png)
