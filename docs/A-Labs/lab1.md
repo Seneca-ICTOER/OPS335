@@ -68,7 +68,7 @@ Except for your host machine, all the Virtual Machines in this course will have 
     - You should be configuring the BOOTPROTO (**static** instead of dhcp), IPADDR, PREFIX (or NETMASK), GATEWAY, HWADDR, and DNS1 for this file. Note the following information for this setup:
     - Set your IPADDR for each VM with the following rules:
         1. Your IPADDR's third octet will use the last 2 digits in your student number.
-        2. Make certain that the 4th octet for your VMs does not start with 1 since that is reserved by your host machine. (Use the recommended fourth octets: **2 for vm1**, **3 for vm2**, and **4 for vm3**.)
+        2. Make certain that the 4th octet for your VMs does not start with **1** since that is reserved by your host machine. (Use the recommended fourth octets: **2 for vm1**, **3 for vm2**, and **4 for vm3**.)
     - Don't forget to set the default gateway and DNS server for your VMs. You can use your host's IP address as a gateway and DNS server (_libvirt_ will proxy the requests to the real DNS server).
     - You can refer to your previous lab to obtain information for setup of these options: [\[Configuring a VM Host\]](./installation-lab0.md#configuring-a-vm-host)
 
