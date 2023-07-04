@@ -64,13 +64,13 @@ In order to have your network settings become permanent, you need to edit and sa
 
 Except for your host machine, all the Virtual Machines in this course will have **static network configuration** (as opposed to Automatic or DHCP). Sometimes, you will be required to debug networking problems quickly by changing the network configuration of your VMs.
 
-7. Edit the **ifcfg-interfacename** (most likely ifcfg-eth0) file for each of your VMs to use a static IP address (refer to previous OPS235 lab on networking: [ Network Config - CLI ] (ADD LINK).
+7. Edit the **ifcfg-interfacename** (most likely ifcfg-eth0) file for each of your VMs to use a static IP address (refer to previous OPS235 lab on networking: [\[Network Config - CLI\]](https://seneca-ictoer.github.io/OPS235/A-Labs/lab6#part-3-configuring-vm-network-setup-via-command-line-centos2-and-centos3).
     - You should be configuring the BOOTPROTO (**static** instead of dhcp), IPADDR, PREFIX (or NETMASK), GATEWAY, HWADDR, and DNS1 for this file. Note the following information for this setup:
     - Set your IPADDR for each VM with the following rules:
         1. Your IPADDR's third octet will use the last 2 digits in your student number.
         2. Make certain that the 4th octet for your VMs does not start with 1 since that is reserved by your host machine. (Use the recommended fourth octets: **2 for vm1**, **3 for vm2**, and **4 for vm3**.)
     - Don't forget to set the default gateway and DNS server for your VMs. You can use your host's IP address as a gateway and DNS server (_libvirt_ will proxy the requests to the real DNS server).
-    - You can refer to your previous lab to obtain information for setup of these options: [ Configuring a VM Host ] (ADD LINK)
+    - You can refer to your previous lab to obtain information for setup of these options: [\[Configuring a VM Host\]](./installation-lab0.md#configuring-a-vm-host)
 
 8. Make note of the files used and entries required and note them in your lab log-book.
 9. Save your editing session, and then restart each VM and run the following command to ensure they still have the network configuration you set:
@@ -220,7 +220,7 @@ In OPS235, you learned to use the command **gzip**, **gunzip** (plus **virsh dum
 
 1. Make certain that your virtual machines are NOT running.
 2. Make certain that you are logged in as **root** user on your host machine.
-3. Refer to OPS235 lab2 on backing up your VMs using the **gzip** command [OPS235 Lab2 - Backing up VMs] (ADD LINK)
+3. Refer to OPS235 lab2 on backing up your VMs using the **gzip** command [OPS235 Lab2 - Backing up VMs](https://seneca-ictoer.github.io/OPS235/A-Labs/lab2#part-1-backing-up-virtual-machines)
 4. Make certain that you have performed a full backup for **vm1**, **vm2**, and **vm3**.
     - It is recommended to create a Bash shell script to automate the backing up of ALL your VMs in sequence. You can do this by running a for loop using a list for vm1, vm2, and vm3 image file pathnames.
 
