@@ -148,7 +148,7 @@ Perform the following steps to create your first VM on your Virtual Machine Mana
     - For Software Selection: Accept the default **minimum install**. None of your VMs in this course will have a GUI since GUIs needlessly consume resources and image space.
         1. Click **Installation Destination**, and then click **Done** to confirm that an **automatic install** will be performed.
         2. Click Network & Hostname and set hostname to: **vm1.localdomain** and make certain the _Ethernet connection_ is set to **ON**.
-        3. During installation you will be prompted to set the root password and an **initial user account**. For the _initial user_, enter the same information you entered on your host machine.
+        3. During installation you will be prompted to set the _root password_ and an **initial user account**. For the _initial user_, enter the same information you entered on your host machine.
 
 **First user created:** For successful completion of the labs, please ensure the first user created is named using your Seneca username.
 
