@@ -181,7 +181,7 @@ Here is an evaluation rubric (in table form) showing you how you will be evaluat
 |   - Samba server allows samba traffic | /1 |
 |   - Samba traffic limited to local network | /1 |
 | **Less Deductions (One mark per issue for EACH VM):** |  |
-|   - Not using zone filenames: **mydb-for-continents.earth.ops and mydb-for-172.28.105** | /1 |
+|   - Not using zone filenames: **mydb-for-continents.earth.ops** and **mydb-for-172.28.105** | /1 |
 |   - **DOMAIN Name** NOT Resolved | /1 |
 |   - **VM hostname** NOT set | /1 |
 |   - firewalld **enabled / running** | /1 |
