@@ -26,5 +26,10 @@ To unbind the interace from the MAC address:
 ![Network Mac 3](/img/Ops235-network-mac-3.png)
 
 4. Select File\>Save.
-5. **Delete the file** `/etc/udev/rules.d/70-persistent-net-rules` **by entering this command as root:** `rm /etc/udev/rules.d/70-persistent-net.rules`
+5. **Delete the file** `/etc/udev/rules.d/70-persistent-net-rules` **by entering this command as root:**
+
+```bash
+rm /etc/udev/rules.d/70-persistent-net.rules
+```
+
 6. Reboot your system.
