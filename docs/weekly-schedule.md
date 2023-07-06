@@ -11,7 +11,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 1
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Introduction to OPS335:** | **Online Reference:** | [Prep for Labs](/A-Labs/installation-lab0.md) |
 | - Outline, policies | - [Centos7 Install Tips](https://wiki.centos.org/TipsAndTricks#head-4c9ee55a5c9dc051bd32e795b46a3856e41a0335) |  |
@@ -20,7 +20,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 2
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Basic Networking & Backups:** | **Online Reference:** | [Lab 1: Network/Backup](/A-Labs/lab1.md) |
 | - ifconfig & route vs ip; resolv.conf, hostnamectl | - [ip vs ifconfig](https://www.tty1.net/blog/2010/ifconfig-ip-comparison_en.html) |  |
@@ -31,7 +31,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 3
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Packet Filtering Using iptables:** | **Online Reference:** | [Lab 2a: Packet Filtering Using iptables](/A-Labs/lab2a.md) |
 | - What is Packet Filtering | - [Overview](https://en.wikipedia.org/wiki/Iptables#Overview) |  |
@@ -42,7 +42,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 4
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Network Address Translation / iptables Best Practices** | **Online Reference:** | [Lab 2b: Additional iptables Troubleshooting](/A-Labs/lab2b.md) |
 | - Network Address Translation (NAT Table - iptables) | - [Test Network Connectivity](/A-Labs/lab1.md#linux-network-connection-configuration-troubleshooting) (From Lab1) |  |
@@ -53,7 +53,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 5
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Domain Name System (DNS):** | **Online Reference:** | [Lab 3: DNS](/A-Labs/lab3.md) |
 | - Address resolution mechanism (zone definitions) | - [Address resolution mechanism](https://en.wikipedia.org/wiki/Domain_Name_System#Address_resolution_mechanism) | [Assignment 1 (Part 1)](/B-Assignments/assignment1-part1.md) |
@@ -66,7 +66,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 6
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Mail Servers - SMTP** | **Online Reference:** | [Lab 4a: Simple Mail Server Setup](/A-Labs/lab4a.md) |
 | - Mail Server Elements (MSA/MTA, MUA, MDA, MS, AA, SMTP) | - [Sending Messages with mail Command](http://www.simplehelp.net/2008/12/01/how-to-send-email-from-the-linux-command-line/) |  |
@@ -78,20 +78,20 @@ description: Weekly Schedule for OPS335
 
 ## Week 7
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Evaluation / Review** |  | [Assignment 1 (Part 2)](/B-Assignments/assignment1-part2.md) |
 |  |  | Written Midterm Test |
 
 ## Study Week
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 |  |  |  |
 
 ## Week 8
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Using a Centralized Message Store (IMAP)** | **Online Reference:** | [Lab 4b: Mail Server Setup: LDA](/A-Labs/lab4b.md) |
 | - Specifying Domains for Received Email (MTA) | - [common mail server terms](http://wiki.dovecot.org/MailServerOverview) |  |
@@ -101,7 +101,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 9
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **File Server (Samba):** |  | [Lab 5: Samba Server](/A-Labs/lab5.md) |
 | - smbclient, smbmount (mount -t cifs) |  |  |
@@ -110,7 +110,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 10
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Web Server (Apache):** | **Online Resources:** | [Lab 6: Web Server](/A-Labs/lab6.md) |
 | - LAMP stack installation and configuration | - [PHP Tutorial](http://www.w3schools.com/php/default.asp) |  |
@@ -118,7 +118,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 11
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Webmail: Encrypted connections** | **Online Reference:** | [Lab 7: Encrypted connections and webmail](/A-Labs/lab7.md) |
 | - WebMail installation and configuration | - [TLS, SSL Definition](https://en.wikipedia.org/wiki/Transport_Layer_Security) |  |
@@ -129,7 +129,7 @@ description: Weekly Schedule for OPS335
 
 ## Week 12
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **OpenLDAP:** | **Online Reference:** | [Lab 8: OpenLDAP](/A-Labs/lab8.md) |
 | - LDAP Overview | - [OpenLDAP Administration Guide](https://www.openldap.org/doc/admin24/) |  |
@@ -138,13 +138,13 @@ description: Weekly Schedule for OPS335
 
 ## Week 13
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Evaluation / Review** |  | [Assignment 2](/B-Assignments/assignment2.md) |
 |  |  | Exam Review |
 
 ## Week 14
 
-| Objectives and Tasks	| Reference	| Labs |
+| Objectives and Tasks	| Reference	| Labs/Evaluations |
 | --- | --- | --- |
 | **Evaluation / Review** |  | Final Exam |
