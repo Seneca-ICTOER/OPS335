@@ -11,7 +11,7 @@ description: Lab 1
 
 In OPS235, you learned how to configure a virtual private network for your **vm1**, **vm2** and **vm3** virtual machines. You were required to configure a static network connection for your VMs. In OPS335, you will also be setting up a static network connection for all of your VMs (which all VMs will be text-based). All of the services that we install and configure for this course **require a working network connection**; therefore, it is very important that you know how to configure a network connection for your VMs, whether via command line for trouble-shooting purposes, or to create a persistent (permanent) network connection that uses static IP address (as opposed to DHCP).
 
-This lab is a review of the material from labs 6 ( [CLI Network Configuration](http://zenit.senecac.on.ca/wiki/index.php/OPS235_Lab_6_-_CentOS7#Part_4:_Configuring_VM_Network_Setup_via_Command_Line_.28centos3.29) ), but will also additional topics.
+This lab is a review of the material from labs 6 ( [CLI Network Configuration](http://zenit.senecac.on.ca/wiki/index.php/OPS235_Lab_6_-_CentOS7#Part_4:_Configuring_VM_Network_Setup_via_Command_Line_.28centos3.29) [CLI Network Configuration Alt Link](https://seneca-ictoer.github.io/OPS235/A-Labs/lab6#part-3-configuring-vm-network-setup-via-command-line-centos2-and-centos3) ), but will also additional topics.
 
 ### Online Resources
 
@@ -240,7 +240,7 @@ An incremental backup is a backup of only files that have changed since the last
 
 **Perform the following steps:**
 
-**Rsync Needs to be Installed on ALL VMs:** Since you select minimum install on your VMs, the rsync command was not installed by default. You need the rsync command to be available on your host machine and all of your VMs. Make certain that the rsync command is installed on all your vms.
+**Rsync Needs to be Installed on ALL VMs:** Since you select minimum install on your VMs, the rsync command was not installed by default. You need the rsync command to be available on your host machine and all of your VMs. Make certain that the **rsync** command is installed on all your vms.
 
 1. Make certain that your **vm1** machine is running.
 2. Make certain that you are logged in as **root** user on your host machine.
