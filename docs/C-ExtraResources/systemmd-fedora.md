@@ -22,7 +22,7 @@ Information provided by the systemd developer:
 
 - [systemd](http://www.freedesktop.org/wiki/Software/systemd)
 
-## For System Administrators
+### For System Administrators
 
 Blog posts by the systemd developer Lennart Poettering for system administrators:
 
