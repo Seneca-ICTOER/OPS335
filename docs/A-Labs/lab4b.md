@@ -77,7 +77,7 @@ Although we will be eventually setting up the Thunderbird application to perform
 | **security**	| SSL/TLS	| STARTTLS |
 | **References**	| \[1\] [ITS - Configuring other Email Clients](https://employees.senecacollege.ca/spaces/77/it-services/wiki/view/2394/other-email-clients) |  |
 
-Note that your username is your full email address(_yourid\@myseneca.ca_) and not just _yourid_.
+Note that your username is your full email address(yourid@myseneca.ca) and not just _yourid_.
 
 **Unencrypted Options**
 
@@ -104,7 +104,7 @@ In Lab 4a, both of your email servers were sending mail messages addressed from 
 2. On both machines (vm2 and vm3), edit the **/etc/postfix/main.cf** file to change the **myorigin** parameter from **$myhostname** to **$mydomain**. Restart the **postfix** service.
 3. Now, send emails messages (via the **mail** command) between both of your vm2 and vm3 machines, and view the mail messages by issuing **mail** in each vm. The sender address should now read that the received mail messages came from **root@yourdomain.ops**.
 
-    - The next step is to configure what addresses that the server will receive email for. This is done using postfix by setting the **mydestination** parameter (configuration variable) to include **$mydomain** (this is assuming you've set up **mydomain**, **myorigin** , and **inet_interfaces** properly).
+    - The next step is to configure what addresses that the server will receive email for. This is done using postfix by setting the **mydestination** parameter (configuration variable) to include **$mydomain** (this is assuming you've set up **mydomain**, **myorigin**, and **inet_interfaces** properly).
 
 4. Edit the **/etc/postfix/main.cf** file for **vm3 ONLY**, scroll down to the line containing: **mydestination** and change line to the text shown below:
 
