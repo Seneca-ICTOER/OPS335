@@ -30,7 +30,7 @@ Although, you will not be able to receive mail messages from outside sources (su
 - [Reading Full Email Headers](https://support.google.com/mail/answer/29436?hl=en) (Explanation of message header information)
 - [Here's an overview](http://wiki.dovecot.org/MailServerOverview) (common mail server terms)
 
-## Investigation 1: Install, Set-Uo, And Use The Mail User Agent (MUA)
+## Investigation 1: Install, Set-Up, And Use The Mail User Agent (MUA)
 
 We will be using a simple text-based **Mail User Agent (MUA)** called **mailx** in this lab to **both send and receive** mail messages within your **vm2** machine and to **only send** mail messages from your **vm2** machine to your Seneca e-mail account.
 
