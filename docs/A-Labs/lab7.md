@@ -42,7 +42,7 @@ Normally (in production), you would need to pay a "certificate authority" to iss
 
 We will be generating our own public keys, mainly in order to avoid paying for a certificate. We will not have enough time to get into the details of what all the following commands do in this section. They are from [this blog post](https://www.e-rave.nl/create-a-self-signed-ssl-key-for-postfix). If you don't understand what the blog post refers to but would like to understand in more details, a good recommended book for interest, called Crypto by Steven Levy, provides a more in-depth discussion of encryption and security.
 
-The public key cryptography concepts in this lab are the same in a previous lab ([Lab1: SSH](http://zenit.senecac.on.ca/wiki/index.php/OPS335_Lab_1#SSH_Keys)), although the terminology is slightly different.
+The public key cryptography concepts in this lab are the same in a previous lab ([Lab 1: SSH](./lab1#investigation-2-configuring-ssh)), although the terminology is slightly different.
 
 A simple way to summarize the differences is:
 
